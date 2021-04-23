@@ -7,6 +7,7 @@ function Services() {
   return (
     <>
       <HeroSection {...homeObjOne} />
+      <HeroSection {...homeObjTwo} />
       <HeroSection {...homeObjThree} />
     </>
   );

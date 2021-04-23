@@ -2,42 +2,61 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Exclusive Access',
-  headline: 'Unlimited Transactions with zero fees',
+  topLine: 'Make Your D-Day Special with Dikshita Jindal',
+  headline: 'Bridal Makeup',
   description:
-    'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
-  buttonLabel: 'Get Started',
+    'Its your big day, Let us make it special by dolling you up with elegance and poise.',
+  description1:"Bridal Makeup Includes :",
+  description2: "* Makeup",
+  description3: "* Hair Styling",
+  description4: "* Contact Lenses",
+  description5: "* Draping",
+  description6: "* Nail Paint",
+  buttonLabel: 'Contact Us',
   imgStart: '',
-  img: 'images/svg-1.svg',
+  img: 'images/bridal.jpeg',
   alt: 'Credit Card'
 };
 
 export const homeObjTwo = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: '100% SECURE',
-  headline: 'Stay protected 24/7 anywhere anytime',
-  description:
-    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-  buttonLabel: 'Learn More',
-  imgStart: '',
-  img: 'images/svg-5.svg',
-  alt: 'Vault'
-};
-
-export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'EASY SETUP',
-  headline: 'Super fast and simple onboarding process',
-  description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: 'Start Now',
+  topLine: 'Make Your D-Day Special with Dikshita Jindal',
+  headline: 'Engagement Makeup',
+  buttonLabel: 'Contact Us',
   imgStart: 'start',
-  img: 'images/svg-7.svg',
-  alt: 'Vault'
+  img: 'images/engagement.jpeg',
+  alt: 'Vault',
+  description:
+    'Its your big day, Let us make it special by dolling you up with elegance and poise.',
+  description1:"Engagaement Makeup Includes :",
+  description2: "* Makeup",
+  description3: "* Hair Styling",
+  description4: "* Contact Lenses",
+  description5: "* Draping",
+  description6: "* Nail Paint",
+  buttonLabel: 'Contact Us'
+};
+
+export const homeObjThree = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Make Your D-Day Special with Dikshita Jindal',
+  headline: 'Bridal Makeup',
+  description:
+    'Its your big day, Let us make it special by dolling you up with elegance and poise.',
+  description1:"Bridal Makeup Includes :",
+  description2: "* Makeup",
+  description3: "* Hair Styling",
+  description4: "* Contact Lenses",
+  description5: "* Draping",
+  description6: "* Nail Paint",
+  buttonLabel: 'Contact Us',
+  imgStart: '',
+  img: 'images/bridal.jpeg',
+  alt: 'Credit Card'
 };
 
 export const homeObjFour = {

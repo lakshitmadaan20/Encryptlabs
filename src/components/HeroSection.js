@@ -13,7 +13,13 @@ function HeroSection({
   buttonLabel,
   img,
   alt,
-  imgStart
+  imgStart,
+  description1,
+  description2,
+  description3,
+  description4,
+  description5,
+  description6,
 }) {
   return (
     <>
@@ -43,11 +49,67 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link to='/sign-up'>
+
+                <p
+                  className={
+                    lightTextDesc
+                      ? 'home__hero-subtitle'
+                      : 'home__hero-subtitle dark'
+                  }
+                >
+                  {description1}
+                </p>
+                <p
+                  className={
+                    lightTextDesc
+                      ? 'home__hero-subtitle'
+                      : 'home__hero-subtitle dark'
+                  }
+                >
+                   {description2}
+                </p>
+                <p
+                  className={
+                    lightTextDesc
+                      ? 'home__hero-subtitle'
+                      : 'home__hero-subtitle dark'
+                  }
+                >
+                  {description3}
+                </p>
+                <p
+                  className={
+                    lightTextDesc
+                      ? 'home__hero-subtitle'
+                      : 'home__hero-subtitle dark'
+                  }
+                >
+                  {description4}
+                </p>
+                <p
+                  className={
+                    lightTextDesc
+                      ? 'home__hero-subtitle'
+                      : 'home__hero-subtitle dark'
+                  }
+                >
+                  {description5}
+                </p>
+
+                <p
+                  className={
+                    lightTextDesc
+                      ? 'home__hero-subtitle'
+                      : 'home__hero-subtitle dark'
+                  }
+                >
+                  {description6}
+                </p>
+                <Link to='/contactus'>
                   <Button buttonSize='btn--wide' buttonColor='blue'>
                     {buttonLabel}
                   </Button>
-                </Link>
+                </Link> 
               </div>
             </div>
             <div className='col'>
