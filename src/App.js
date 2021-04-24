@@ -6,7 +6,7 @@ import Contact from './components/pages/SignUp/Contact';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Pricing from './components/Pricing';
+import Gallery from './components/pages/Gallery';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/services' component={Services} />
-        <Route path='/price' component={Pricing} />
+        <Route path='/gallery' component={Gallery} />
         <Route path='/contactus' component={Contact}/>
       </Switch>
       <Footer/>

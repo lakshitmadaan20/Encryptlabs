@@ -10,7 +10,7 @@ function Home() {
     <>
       <Hero/>
       <HeroSection {...homeObjTwo} />
-      <ImageSlider slides={SliderData} />
+      {/* <ImageSlider slides={SliderData} /> */}
     </>
   );
 }
