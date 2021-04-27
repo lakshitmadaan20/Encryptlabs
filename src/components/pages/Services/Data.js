@@ -9,7 +9,7 @@ export const homeObjOne = {
   description1:"Bridal Makeup Includes :",
   description2: "* Makeup",
   description3: "* Hair Styling",
-  description4: "* Contact Lenses",
+  description4: "* Colored Lenses",
   description5: "* Draping",
   description6: "* Nail Paint",
   buttonLabel: 'Contact Us',
@@ -33,7 +33,7 @@ export const homeObjTwo = {
   description1:"Engagaement Makeup Includes :",
   description2: "* Makeup",
   description3: "* Hair Styling",
-  description4: "* Contact Lenses",
+  description4: "* Colored Lenses",
   description5: "* Draping",
   description6: "* Nail Paint",
   buttonLabel: 'Contact Us'
@@ -44,31 +44,38 @@ export const homeObjThree = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'Make Your D-Day Special with Dikshita Jindal',
-  headline: 'Bridal Makeup',
+  headline: 'Party Makeup',
   description:
-    'Its your big day, Let us make it special by dolling you up with elegance and poise.',
-  description1:"Bridal Makeup Includes :",
+    'For bridesmaids special occassion',
+  description1:"Party Makeup Includes :",
   description2: "* Makeup",
   description3: "* Hair Styling",
-  description4: "* Contact Lenses",
+  description4: "* Colored Lenses",
   description5: "* Draping",
-  description6: "* Nail Paint",
+  description6: "",
   buttonLabel: 'Contact Us',
   imgStart: '',
-  img: 'images/bridal.jpeg',
+  img: 'images/p1 (9).jpeg',
   alt: 'Credit Card'
 };
 
 export const homeObjFour = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: 'DATA ANALYTICS',
-  headline: 'Every transaction is stored on our secure cloud database',
-  description:
-    'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-  buttonLabel: 'Sign Up Now',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Makeup Course',
+  headline: "Online Makeup Classes",
+  buttonLabel: 'Contact Us',
   imgStart: 'start',
-  img: 'images/svg-8.svg',
-  alt: 'Vault'
+  img: 'images/p1 (31).jpeg',
+  alt: 'Vault',
+  description:
+    'If you want to up your makeup skills and take them to next level, then enroll for our classes today itself.',
+  description1:"Courses Offered :",
+  description2: "* Basic Course",
+  description3: "* Basic + Advance Course",
+  description4: "* Advance Course",
+  description5: "",
+  description6: "",
+  buttonLabel: 'Contact Us'
 };

@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Gallery from './components/pages/Gallery';
+import Questions from './components/pages/Questions';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/services' component={Services} />
         <Route path='/gallery' component={Gallery} />
-        <Route path='/contactus' component={Contact}/>
+        <Route path='/contactus' component={Contact} />
+        <Route path='/faq' component={Questions}/>
       </Switch>
       <Footer/>
     </Router>

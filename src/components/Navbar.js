@@ -64,6 +64,15 @@ function Navbar() {
                   Gallery
                 </Link>
               </li>
+              <li className='nav-item'>
+                <Link
+                  to='/faq'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Faq's
+                </Link>
+              </li>
               <li className='nav-btn'>
                 {button ? (
                   <Link to='/contactus' className='btn-link'>

@@ -59,7 +59,7 @@ function Footer() {
             </p>
           </div>
           <small className='website-rights'>Dikshita Jindal © 2020</small>
-          <small className='website-rights'>Developed by Lakshit Madaan</small>
+          <small className='website-rights'>Developed by <a href="https://lakshit-madaan.netlify.app/">Lakshit Madaan</a></small>
           <div className='social-icons'>
             <a
               className='social-icon-link'

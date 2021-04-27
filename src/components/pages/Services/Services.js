@@ -8,6 +8,8 @@ function Services() {
     <>
       <HeroSection {...homeObjOne} />
       <HeroSection {...homeObjTwo} />
+      <HeroSection {...homeObjThree} />
+      <HeroSection {...homeObjFour} />
     </>
   );
 }
