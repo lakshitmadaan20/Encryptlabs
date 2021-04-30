@@ -12,14 +12,14 @@ function Pricing() {
     <IconContext.Provider value={{ color: '#fff', size: 64 }}>
       <div className='pricing__section'>
         <div className='pricing__wrapper'>
-          <h1 className='pricing__heading'>Pricing</h1>
+          {/* <h1 className='pricing__heading text-center'>Pricing Plans</h1> */}
           <div className='pricing__container'>
-            <Link to='/sign-up' className='pricing__container-card'>
+            <div to='' className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <FaFire />
                 </div>
-                <h3>Starter</h3>
+                <h3>Basic Makeup</h3>
                 <h4>$8.99</h4>
                 <p>per month</p>
                 <ul className='pricing__container-features'>
@@ -27,17 +27,17 @@ function Pricing() {
                   <li>2% Cash Back</li>
                   <li>$10,000 Limit</li>
                 </ul>
-                <Button buttonSize='btn--wide' buttonColor='primary'>
+                {/* <Button buttonSize='btn--wide' buttonColor='primary'>
                   Choose Plan
-                </Button>
+                </Button> */}
               </div>
-            </Link>
-            <Link to='/sign-up' className='pricing__container-card'>
+            </div>
+            <div className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <BsXDiamondFill />
                 </div>
-                <h3>Gold</h3>
+                <h3>Advance Makeup</h3>
                 <h4>$29.99</h4>
                 <p>per month</p>
                 <ul className='pricing__container-features'>
@@ -45,17 +45,17 @@ function Pricing() {
                   <li>3.5% Cash Back</li>
                   <li>$100,000 Limit</li>
                 </ul>
-                <Button buttonSize='btn--wide' buttonColor='blue'>
+                {/* <Button buttonSize='btn--wide' buttonColor='blue'>
                   Choose Plan
-                </Button>
+                </Button> */}
               </div>
-            </Link>
-            <Link to='/sign-up' className='pricing__container-card'>
+            </div>
+            <div className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <GiCrystalize />
                 </div>
-                <h3>Diamond</h3>
+                <h3>Basic + Advance Makeup</h3>
                 <h4>$99.99</h4>
                 <p>per month</p>
                 <ul className='pricing__container-features'>
@@ -63,11 +63,11 @@ function Pricing() {
                   <li>5% Cash Back</li>
                   <li>Unlimited Spending</li>
                 </ul>
-                <Button buttonSize='btn--wide' buttonColor='primary'>
+                {/* <Button buttonSize='btn--wide' buttonColor='primary'>
                   Choose Plan
-                </Button>
+                </Button> */}
               </div>
-            </Link>
+            </div>
           </div>
         </div>
       </div>

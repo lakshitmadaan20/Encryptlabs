@@ -20,6 +20,11 @@ function HeroSection({
   description4,
   description5,
   description6,
+  description7,
+  description8,
+  description9,
+  description10,
+  description11
 }) {
   return (
     <>
@@ -104,6 +109,51 @@ function HeroSection({
                   }
                 >
                   {description6}
+                </p>
+                <p
+                  className={
+                    lightTextDesc
+                      ? 'home__hero-subtitle'
+                      : 'home__hero-subtitle dark'
+                  }
+                >
+                  {description7}
+                </p>
+                <p
+                  className={
+                    lightTextDesc
+                      ? 'home__hero-subtitle'
+                      : 'home__hero-subtitle dark'
+                  }
+                >
+                  {description8}
+                </p>
+                <p
+                  className={
+                    lightTextDesc
+                      ? 'home__hero-subtitle'
+                      : 'home__hero-subtitle dark'
+                  }
+                >
+                  {description9}
+                </p>
+                <p
+                  className={
+                    lightTextDesc
+                      ? 'home__hero-subtitle'
+                      : 'home__hero-subtitle dark'
+                  }
+                >
+                  {description10}
+                </p>
+                <p
+                  className={
+                    lightTextDesc
+                      ? 'home__hero-subtitle'
+                      : 'home__hero-subtitle dark'
+                  }
+                >
+                  {description11}
                 </p>
                 <Link to='/contactus'>
                   <Button buttonSize='btn--wide' buttonColor='blue'>

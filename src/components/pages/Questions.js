@@ -1,52 +1,42 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Faq from "react-faq-component";
 
 const data = {
     title: "FAQ (How it works)",
     rows: [
         {
-            title: "Lorem ipsum dolor sit amet,",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-              Fusce sed commodo purus, at tempus turpis.`,
+            title: "Which Brands do you use for bridal makeup?",
+            content: `Our bridal vanity comprises only of highend international brands such as Huda Beauty, Two faced, Mav, Estee Lauder, Makeup Forver and many more`,
         },
         {
-            title: "Nunc maximus, magna at ultricies elementum",
+            title: "Which one should I use, HD or Airbrush",
             content:
-                "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+                "For clear flawless skin you can go with HD makeup. However, acne prone or pigmented skin Air Brush is more advisable",
         },
         {
-            title: "Curabitur laoreet, mauris vel blandit fringilla",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            title: "Which one stays longer HD or Airbrush",
+            content: `We use high international products for all our makeups. THE MAKEU STAYS INTACT FOR 15-16 HOURS`,
         },
         {
-            title: "What is the package version",
-            content: <p>current version is 1.2.1</p>,
+            title: "How much time will it take to do the makeup",
+            content: <p>We need approximately 3 hours for bridal makeup.</p>,
         },
         {
-            title: "What is the package version",
-            content: <p>current version is 1.2.1</p>,
+            title: "How do I book?",
+            content: <p>For bookings get in touch with our managers, connect with us on social media plaforms and you can also mail us at info.dikshita@gmail.com</p>,
         },,
         {
-            title: "What is the package version",
-            content: <p>current version is 1.2.1</p>,
+            title: "How much do I need to pay in advance",
+            content: <p>you have to the advance of 50% of the total value</p>
         },
         {
-            title: "What is the package version",
-            content: <p>current version is 1.2.1</p>,
+            title: "Do I have to bring flowers and accessories?",
+            content: <p>Yes, brides carry flowers with them on the wedding date.</p>
         },
         {
-            title: "What is the package version",
-            content: <p>current version is 1.2.1</p>,
-        },
-        {
-            title: "What is the package version",
-            content: <p>current version is 1.2.1</p>,
-        },
+            title: "How to enroll for makeup classes",
+            content: <p>You contact us for the enrollment of makeup classes</p>
+        }
     ],
 };
 
