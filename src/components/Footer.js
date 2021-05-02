@@ -18,28 +18,25 @@ function Footer() {
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>Prices</h2>
-            <p>How it works</p>
-            <p>Testimonials</p>
-            <p>Careers</p>
-            <p>Investors</p>
-            <p>Terms of Service</p>
+            <h2>Courses</h2>
+            <p>Basic</p>
+            <p>Advance</p>
+            <p>Online Class</p>
           </div>
           <div className='footer-link-items'>
             <h2>About Us</h2>
-            <p>Contact</p>
-            <p>Support</p>
-            <p>Destinations</p>
-            <p>Sponsorships</p>
+            <Link to="/contactus">Contact</Link>
+            <a href="">Call Us</a>
+            <a href="mailto:info.dikshita@gmail.com">Email</a>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Services</h2>
-            <p>Submit Video</p>
-            <p>Ambassadors</p>
-            <p>Agency</p>
-            <p>Influencer</p>
+            <p>Bridal</p>
+            <p>Engagement</p>
+            <p>Party</p>
+            <p>Courses</p>
           </div>
           <div className='footer-link-items'>
             <h2>Social Media</h2>

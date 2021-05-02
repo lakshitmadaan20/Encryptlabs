@@ -91,6 +91,46 @@ const images = [
     {
         original: "images/p1 (20).jpeg",
         thumbnail:"images/p1 (20).jpeg"      
+    },
+    {
+        original: "images/p1 (21).jpeg",
+        thumbnail:"images/p1 (21).jpeg"      
+    },
+    {
+        original: "images/p1 (22).jpeg",
+        thumbnail:"images/p1 (22).jpeg"      
+    },
+    {
+        original: "images/p1 (23).jpeg",
+        thumbnail:"images/p1 (23).jpeg"      
+    },
+    {
+        original: "images/p1 (24).jpeg",
+        thumbnail:"images/p1 (24).jpeg"      
+    },
+    {
+        original: "images/p1 (25).jpeg",
+        thumbnail:"images/p1 (25).jpeg"      
+    },
+    {
+        original: "images/p1 (26).jpeg",
+        thumbnail:"images/p1 (26).jpeg"      
+    },
+    {
+        original: "images/p1 (27).jpeg",
+        thumbnail:"images/p1 (27).jpeg"      
+    },
+    {
+        original: "images/p1 (28).jpeg",
+        thumbnail:"images/p1 (28).jpeg"      
+    },
+    {
+        original: "images/p1 (29).jpeg",
+        thumbnail:"images/p1 (29).jpeg"      
+    },
+    {
+        original: "images/p1 (30).jpeg",
+        thumbnail:"images/p1 (30).jpeg"      
     }
   ];
 

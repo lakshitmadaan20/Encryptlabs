@@ -2,42 +2,38 @@ import React from "react";
 import Faq from "react-faq-component";
 
 const data = {
-    title: "FAQ (How it works)",
+    title: "FAQ (For Makeup Classes)",
     rows: [
         {
-            title: "Which Brands do you use for bridal makeup?",
-            content: `Our bridal vanity comprises only of highend international brands such as Huda Beauty, Two faced, Mav, Estee Lauder, Makeup Forver and many more`,
+            title: "Will academy provide makeup products?",
+            content: `We will be providing practice materials during the course, however, you will need to get your own personal hygiene materials like facial vipes, face towel, ear buds, dry tissues & tools such as beauty blender, brush set.`,
         },
         {
-            title: "Which one should I use, HD or Airbrush",
+            title: "How can I register for the classes?",
             content:
-                "For clear flawless skin you can go with HD makeup. However, acne prone or pigmented skin Air Brush is more advisable",
+                "To register for classes you will need to make the payment in advance prior to the classes. As soon as you register, you will get a confirmation email from us",
         },
         {
-            title: "Which one stays longer HD or Airbrush",
-            content: `We use high international products for all our makeups. THE MAKEU STAYS INTACT FOR 15-16 HOURS`,
+            title: "How can I make the payment",
+            content: `We accept bank transfer, UPI & Gpay`,
         },
         {
-            title: "How much time will it take to do the makeup",
-            content: <p>We need approximately 3 hours for bridal makeup.</p>,
+            title: "How can I contact you?",
+            content: <p>You can contacts us by filling the contact us form, you can also contact us on our social media platforms, it will take just a minute</p>,
         },
         {
-            title: "How do I book?",
-            content: <p>For bookings get in touch with our managers, connect with us on social media plaforms and you can also mail us at info.dikshita@gmail.com</p>,
-        },,
-        {
-            title: "How much do I need to pay in advance",
-            content: <p>you have to the advance of 50% of the total value</p>
+            title: "Who can enroll for the classes",
+            content: <p>Anyone, who is going to be a bride, are working females, are housewives or are makeup enthusiasts</p>,
         },
         {
-            title: "Do I have to bring flowers and accessories?",
-            content: <p>Yes, brides carry flowers with them on the wedding date.</p>
+            title: "What will be the duration",
+            content: <p>Minimum of 3-4 hours</p>
         },
         {
-            title: "How to enroll for makeup classes",
-            content: <p>You contact us for the enrollment of makeup classes</p>
+            title: "What will I get in return?",
+            content: <p>We will provide you with a certificate and an expertise knowledge to how to kickstart your career in makeup industry, how to rise on social media as well as a personalised photoshoot(but only in offline makeup classes)</p>
         }
-    ],
+    ]
 };
 
 const styles = {

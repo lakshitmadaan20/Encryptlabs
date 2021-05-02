@@ -1,7 +1,7 @@
 export const homeObjOne = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Make Your D-Day Special with Dikshita Jindal',
   headline: 'Bridal Makeup',
   description:
@@ -40,9 +40,9 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Make Your D-Day Special with Dikshita Jindal',
   headline: 'Party Makeup',
   description:

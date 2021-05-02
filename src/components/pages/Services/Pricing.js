@@ -22,9 +22,8 @@ function Pricing() {
                 <h4>₹20,000</h4>
               
                 <ul className='pricing__container-features'>
-                  <li><strike>₹30,000</strike></li>
-                  <li>2% Cash Back</li>
-                  <li>$10,000 Limit</li>
+                <li className="text-center">Extra charges for travelling & stay for booking outside Delhi</li>
+              
                 </ul>
                 {/* <Button buttonSize='btn--wide' buttonColor='primary'>
                   Choose Plan
@@ -40,9 +39,7 @@ function Pricing() {
                 <h4>₹15,000</h4>
               
                 <ul className='pricing__container-features'>
-                  <li>1000 Transactions</li>
-                  <li>3.5% Cash Back</li>
-                  <li>$100,000 Limit</li>
+                <li className="text-center">Extra charges for travelling & stay for booking outside Delhi</li>
                 </ul>
                 {/* <Button buttonSize='btn--wide' buttonColor='blue'>
                   Choose Plan
@@ -58,9 +55,7 @@ function Pricing() {
                 <h4>₹7000</h4>
          
                 <ul className='pricing__container-features'>
-                  <li>Unlimited Transactions</li>
-                  <li>5% Cash Back</li>
-                  <li>Unlimited Spending</li>
+                <li className="text-center">Extra charges for travelling & stay for booking outside Delhi</li>
                 </ul>
                 {/* <Button buttonSize='btn--wide' buttonColor='primary'>
                   Choose Plan

@@ -2,7 +2,7 @@ import React from "react";
 import Faq from "react-faq-component";
 
 const data = {
-    title: "FAQ (How it works)",
+    title: "FAQ (Regarding Services)",
     rows: [
         {
             title: "Which Brands do you use for bridal makeup?",
@@ -37,6 +37,11 @@ const data = {
             title: "How to enroll for makeup classes",
             content: <p>You contact us for the enrollment of makeup classes</p>
         }
+        ,
+        {
+            title: "How can we contact you?",
+            content: <p>You contact us by filling the contact us form or by approaching us social media platforms</p>
+        }
     ],
 };
 
@@ -57,13 +62,17 @@ const config = {
 const Questions = () => {
     return (
         <div className="mt-4 mb-4">
+            <br />
+            <br/>
             <div className="container">
             <Faq
             data={data}
             styles={styles}
             config={config}
         />
-         </div>
+            </div>
+            <br />
+            <br/>
     </div>
     )
 }
