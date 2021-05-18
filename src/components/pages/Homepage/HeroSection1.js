@@ -159,7 +159,8 @@ function HeroSection1({
                   <Button buttonSize='btn--wide' buttonColor='blue'>
                     {buttonLabel}
                   </Button>
-                </a> 
+                </a>
+                
               </div>
             </div>
             <div className='col'>

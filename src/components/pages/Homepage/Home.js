@@ -2,15 +2,16 @@ import React from 'react';
 // import ImageSlider from '../../ImageSlider'
 // import { SliderData } from '../../SliderData';
 import HeroSection1 from './HeroSection1'
-import { homeObjTwo } from './Data';
+import { homeObjTwo, homeObjOne } from './Data';
 import Hero from './Hero'
+import HeroSection from '../../HeroSection'
 
 function Home() {
   return (
     <>
       <Hero/>
-      <HeroSection1 {...homeObjTwo} />
-      {/* <ImageSlider slides={SliderData} /> */}
+      <HeroSection {...homeObjOne} />
+      <HeroSection1 {...homeObjTwo}/>
     </>
   );
 }

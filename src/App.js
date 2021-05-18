@@ -9,18 +9,21 @@ import Footer from './components/Footer';
 import Gallery from './components/pages/Gallery';
 import Questions from './components/pages/Questions';
 import Course from './components/pages/Courses/Course';
+import ScrollToTop from './ScrollToTop'
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Switch>
+        <ScrollToTop>
         <Route path='/' exact component={Home} />
         <Route path='/services' component={Services} />
         <Route path='/gallery' component={Gallery} />
         <Route path='/contactus' component={Contact} />
         <Route path='/faq' component={Questions} />
         <Route path='/courses' component={Course} />
+        </ScrollToTop>
       </Switch>
       <Footer/>
     </Router>
