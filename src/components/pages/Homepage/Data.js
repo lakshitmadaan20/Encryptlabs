@@ -5,7 +5,7 @@ export const homeObjOne = {
   topLine: 'Recent Updates',
   headline: '1-Day Online Advance Makeup Masterclass',
   description:
-    'We are launching a one day online advance makeup masterclass on 30 MAY 2021. Tmings will be between 1-5 P.M and fees is 1000 rupees only. Moreover students will also be provided with digital certficiate for participation and class recordings. Please contact us for more details and enrollment',
+    'We are launching a one day online advance makeup masterclass on 30 MAY 2021. Timings will be between 1-5 P.M and fees is 1000 rupees only. Moreover students will also be provided with digital certficiate for participation and class recordings. Please contact us for more details and enrollment',
   buttonLabel: 'Contact Us',
   description1: "Course Contents:",
   description2: "1 Advance Eye Looks",
