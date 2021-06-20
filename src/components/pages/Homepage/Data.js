@@ -3,19 +3,19 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'Recent Updates',
-  headline: '1-Day Online Advance Makeup Masterclass',
+  headline: '2 Days Basic Makeup Course',
   description:
-    'We are launching a one day online advance makeup masterclass on 30 MAY 2021. Timings will be between 1-5 P.M and fees is 1000 rupees only. Moreover students will also be provided with digital certficiate for participation and class recordings. Please contact us for more details and enrollment',
+    'We are launching a two days online basic makeup course from 3 July 2021 to 4 July 2021. Timings will be between 1-4 P.M and fees is 2500 rupees only. Moreover students will also be provided with digital certficiate and class recordings. Please contact us for more details and enrollment',
   buttonLabel: 'Contact Us',
   description1: "Course Contents:",
-  description2: "1 Advance Eye Looks",
-  description3: "2 Advance Highlighting & Sculpting",
-  description4: "3 Glitter and Lashes Application",
-  description5: "4 Blush Placement",
-  description6: "And Much More....",
-  description7:"",
+  description2: "1 Soft Glam Makeup Look",
+  description3: "2 Smokey Eye Look",
+  description4: "3 How to perfect the base",
+  description5: "4 Colour Correction",
+  description6: "5 Winged & smudge eyeliner",
+  description7:"6 Blush & contour application",
   imgStart: 'start',
-  img: 'images/class.jpg',
+  img: 'images/class1.jpeg',
   alt: 'Vault'
 };
 
