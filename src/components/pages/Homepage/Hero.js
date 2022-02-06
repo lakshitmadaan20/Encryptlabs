@@ -6,8 +6,8 @@ import {Link} from 'react-router-dom'
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1 className="text-center">Dikshita Jindal Makeovers</h1>
-      <p className="text-center">Get Stuck In A Paradise</p>
+      <h1 className="text-center">Enrypt Labs</h1>
+      <p className="text-center">Your Development Partner</p>
       <div className='hero-btns'>
         <Link to="/services">
         <Button
@@ -18,7 +18,6 @@ function HeroSection() {
           GET STARTED
         </Button>
         </Link>
-        
       </div>
     </div>
   );

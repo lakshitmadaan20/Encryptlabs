@@ -34,8 +34,8 @@ function Navbar() {
         <nav className='navbar'>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              <MdBrush className='navbar-icon' />
-               Dikshita Jindal
+              {/* <MdBrush className='navbar-icon' /> */}
+               EncryptLabs
             </Link>
             <div className='menu-icon' onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -57,15 +57,6 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/gallery'
-                  className='nav-links'
-                  onClick={closeMobileMenu}
-                >
-                  Gallery
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <Link
                   to='/faq'
                   className='nav-links'
                   onClick={closeMobileMenu}
@@ -74,13 +65,13 @@ function Navbar() {
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link
-                  to='/courses'
+                <a
+                  href='https://medium.com/@blockchainunmasked'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Courses
-                </Link>
+                  Resources
+                </a>
               </li>
               <li className='nav-btn'>
                 {button ? (

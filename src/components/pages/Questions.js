@@ -2,46 +2,28 @@ import React from "react";
 import Faq from "react-faq-component";
 
 const data = {
-    title: "FAQ (Regarding Services)",
+    title: "FAQ",
     rows: [
         {
-            title: "Which Brands do you use for bridal makeup?",
-            content: `Our bridal vanity comprises only of highend international brands such as Huda Beauty, Two faced, Mav, Estee Lauder, Makeup Forver and many more`,
+            title: "What is a smart contract?",
+            content: `Smart contracts are the backbone of the blockchain industry. They are digital forms that are coded with the rules and the conditions of the entire architecture of the transactions. Thus, if the rules and conditions are met successfully, the transaction is executed automatically, else execution will be terminated.`,
         },
         {
-            title: "Which one should I use, HD or Airbrush",
-            content:
-                "For clear flawless skin you can go with HD makeup. However, acne prone or pigmented skin Air Brush is more advisable",
+            title: "Benefits of a smart contract service",
+            content: "The benefits of utilising smart contract services consist of great advantageous factors for the platform such as complete anonymity, data backup, complete accuracy, high speed, and extremely safe to transact funds.",
         },
         {
-            title: "Which one stays longer HD or Airbrush",
-            content: `We use high international products for all our makeups. THE MAKEU STAYS INTACT FOR 15-16 HOURS`,
+            title: "How to get a smart contract?",
+            content: `Smart contracts are the core component of any blockchain network. You can get these software applications developed by contacting different blockchain development companies and then choose your preferred blockchain developer.`,
         },
         {
-            title: "How much time will it take to do the makeup",
-            content: <p>We need approximately 3 hours for bridal makeup.</p>,
+            title: "What is Ethereum Smart contract development?",
+            content: <p>Smart contracts are a really important part of any decentralised application. They can be developed on various different blockchains, hence, smart contracts built on ethereum blockchain are called Ethereum smart contracts. These are developed mostly due to their widespread possible uses among the masses.</p>,
         },
         {
-            title: "How do I book?",
-            content: <p>For bookings get in touch with our managers, connect with us on social media plaforms and you can also mail us at info.dikshita@gmail.com</p>,
-        },,
-        {
-            title: "How much do I need to pay in advance",
-            content: <p>you have to the advance of 50% of the total value</p>
+            title: "How Smart Contracts Work?",
+            content: <p>Smart contracts are programmable code. The working of a smart contract is dependent completely on the conditions used while coding. When the conditions entered by the user are met with the smart contract condition, the transaction is successful. Else the transaction is terminated immediately.</p>,
         },
-        {
-            title: "Do I have to bring flowers and accessories?",
-            content: <p>Yes, brides carry flowers with them on the wedding date.</p>
-        },
-        {
-            title: "How to enroll for makeup classes",
-            content: <p>You contact us for the enrollment of makeup classes</p>
-        }
-        ,
-        {
-            title: "How can we contact you?",
-            content: <p>You contact us by filling the contact us form or by approaching us social media platforms</p>
-        }
     ],
 };
 

@@ -1,14 +1,15 @@
 import React from 'react'
 import emailjs from 'emailjs-com';
+import { InlineWidget } from "react-calendly";
 
 const Contact = () => {
   
   
   const sendEmail = async (e) => {
     e.preventDefault();
-    await emailjs.sendForm('service_0kyylwg', 'template_twmkv8e', e.target, 'user_25jaO7IzwlfETtIAXJHLG')
+    await emailjs.sendForm('service_61wbg5c', 'template_3tkf189', e.target, 'user_ynHz8Jx9tAQk5cmmYq8qZ')
       .then((result) => {
-        alert("Thankyou for submitting your query. Team Dikshita will contact you further.")
+        alert("Thankyou for submitting your query. Team EncryptLabs will contact you further.")
       }, (error) => {
         console.log(error.text);
         alert(error.text)
@@ -19,10 +20,15 @@ const Contact = () => {
 
 
   return (
-    <div className="mt-4 mb-4">
-      <br />
+    <div className='mt-4 mb-4 container'>
+      <div>
+      <h2 className='text-center'>Schedule A Meet</h2>
       <br/>
-      <div className="container">
+       <InlineWidget url="https://calendly.com/dev_contact/strategic-call" />
+      </div>
+      <hr/>
+      <div>
+        <h2 className='text-center'>Mail Us</h2>
         <form onSubmit={sendEmail}>
         <div className="mb-3">
          <label className="form-label col-form-label-lg">Name</label>
@@ -40,12 +46,11 @@ const Contact = () => {
         <label className="form-label col-form-label-lg">Message</label>
         <textarea type="text" rows="4" cols="50" className="form-control" name="message" required />
         </div>
-        <hr />
         <br/>
         <button className="btn btn-success btn-lg">Send Message</button>
       </form>
-      </div>
-     <br/>
+      <br/>
+  </div>
   </div>
   );
 };

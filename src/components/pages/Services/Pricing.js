@@ -18,11 +18,11 @@ function Pricing() {
                 <div className='icon'>
                   <FaFire />
                 </div>
-                <h3>Bridal Makeup</h3>
-                <h4>₹20,000</h4>
+                <h3></h3>
+                <h4></h4>
               
                 <ul className='pricing__container-features'>
-                <li className="text-center">Extra charges for travelling & stay for booking outside Delhi</li>
+                <li className="text-center"></li>
               
                 </ul>
                 {/* <Button buttonSize='btn--wide' buttonColor='primary'>
@@ -35,11 +35,11 @@ function Pricing() {
                 <div className='icon'>
                   <BsXDiamondFill />
                 </div>
-                <h3>Engagement Makeup</h3>
-                <h4>₹15,000</h4>
+                <h3></h3>
+                <h4></h4>
               
                 <ul className='pricing__container-features'>
-                <li className="text-center">Extra charges for travelling & stay for booking outside Delhi</li>
+                <li className="text-center"></li>
                 </ul>
                 {/* <Button buttonSize='btn--wide' buttonColor='blue'>
                   Choose Plan
@@ -51,11 +51,11 @@ function Pricing() {
                 <div className='icon'>
                   <GiCrystalize />
                 </div>
-                <h3>Party Makeup</h3>
-                <h4>₹7000</h4>
+                <h3></h3>
+                <h4></h4>
          
                 <ul className='pricing__container-features'>
-                <li className="text-center">Extra charges for travelling & stay for booking outside Delhi</li>
+                <li className="text-center"></li>
                 </ul>
                 {/* <Button buttonSize='btn--wide' buttonColor='primary'>
                   Choose Plan

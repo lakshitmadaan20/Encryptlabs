@@ -6,7 +6,6 @@ import Contact from './components/pages/Contact/Contact';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Gallery from './components/pages/Gallery';
 import Questions from './components/pages/Questions';
 import Course from './components/pages/Courses/Course';
 import ScrollToTop from './ScrollToTop'
@@ -19,7 +18,6 @@ function App() {
         <ScrollToTop>
         <Route path='/' exact component={Home} />
         <Route path='/services' component={Services} />
-        <Route path='/gallery' component={Gallery} />
         <Route path='/contactus' component={Contact} />
         <Route path='/faq' component={Questions} />
         <Route path='/courses' component={Course} />
