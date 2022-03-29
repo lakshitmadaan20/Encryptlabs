@@ -22,10 +22,10 @@ function Footer() {
           <div className='footer-logo'>
             <p className='social-logo'>
           
-               EncryptLabs
+            Marketing Metaverse
             </p>
           </div>
-          <small className='website-rights'>EncryptLabs © 2022</small>
+          <small className='website-rights'>Marketing Metaverse © 2022</small>
           <div className='social-icons'>
             <a
               className='social-icon-link'
@@ -37,7 +37,7 @@ function Footer() {
             </a>
             <a
               className='social-icon-link'
-              href='https://www.instagram.com/blockchainunmasked/'
+              href='https://www.instagram.com/mare_learn/'
               target='_blank'
               aria-label='Instagram'
             >

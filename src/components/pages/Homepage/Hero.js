@@ -6,8 +6,8 @@ import {Link} from 'react-router-dom'
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1 className="text-center">Enrypt Labs</h1>
-      <p className="text-center">Your Development Partner</p>
+      <h1 className="text-center">Marketing Metaverse</h1>
+      <p className="text-center">Tagline</p>
       <div className='hero-btns'>
         <Link to="/services">
         <Button

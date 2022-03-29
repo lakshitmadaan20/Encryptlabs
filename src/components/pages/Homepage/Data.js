@@ -3,7 +3,7 @@ export const homeObjTwo = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'About Us',
-  headline: 'What Does Encrypt Labs Do?',
+  headline: 'What Does Marketing Metaverse Do?',
   description:
     '',
   buttonLabel: 'Services',

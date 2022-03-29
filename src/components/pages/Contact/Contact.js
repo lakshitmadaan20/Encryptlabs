@@ -7,9 +7,9 @@ const Contact = () => {
   
   const sendEmail = async (e) => {
     e.preventDefault();
-    await emailjs.sendForm('service_61wbg5c', 'template_3tkf189', e.target, 'user_ynHz8Jx9tAQk5cmmYq8qZ')
+    await emailjs.sendForm('service_v7isjfj', 'template_y5lwr4d', e.target, 'kT2meiWqVNwkFelw0')
       .then((result) => {
-        alert("Thankyou for submitting your query. Team EncryptLabs will contact you further.")
+        alert("Thankyou for submitting your query. Team MMV will contact you further.")
       }, (error) => {
         console.log(error.text);
         alert(error.text)
@@ -24,7 +24,7 @@ const Contact = () => {
       <div>
       <h2 className='text-center'>Schedule A Meet</h2>
       <br/>
-       <InlineWidget url="https://calendly.com/dev_contact/strategic-call" />
+       <InlineWidget url="https://calendly.com/lakshitmadaan/30min" />
       </div>
       <hr/>
       <div>

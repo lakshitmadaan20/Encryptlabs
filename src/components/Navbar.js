@@ -35,7 +35,7 @@ function Navbar() {
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
               {/* <MdBrush className='navbar-icon' /> */}
-               EncryptLabs
+               Marketing Metaverse
             </Link>
             <div className='menu-icon' onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -66,7 +66,7 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <a
-                  href='https://medium.com/@blockchainunmasked'
+                  href='https://medium.com/@mareit'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
